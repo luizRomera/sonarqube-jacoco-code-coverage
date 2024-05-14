@@ -18,7 +18,9 @@ dependencies {
 
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://localhost:9000'
+        property 'sonar.host.url', 'http://192.168.0.212:9000',
+        property 'sonar.projectKey', 'sonarqube-jacoco-code-coverage',
+        property 'sonar.login', 'sqp_e60322042a428990ee56c2d4dc37aa9f1e9ec026'
     }
 }
 
