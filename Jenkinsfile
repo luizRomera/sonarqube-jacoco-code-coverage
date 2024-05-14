@@ -61,7 +61,9 @@ pipeline {
                             alwaysLinkToLastBuild: true,
                             keepAll: true,
                             reportDir: 'build/reports/jacoco/test/html',
-                            reportFiles: 'index.html'])
+                            reportFiles: 'index.html',
+                            reportName: 'Jacoco',
+                            reportTitles: 'sonarqube-jacoco-code-coverage'])
         }
     }
 }
